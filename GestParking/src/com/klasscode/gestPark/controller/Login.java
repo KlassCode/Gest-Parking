@@ -65,7 +65,7 @@ public class Login extends HttpServlet {
 			if(loginDao.validate(lb)) {
 				HttpSession session = request.getSession(true);
 				session.setAttribute("userConnected", lb);
-				response.sendRedirect("/dashboard");
+				response.sendRedirect("dashboard");
 				
 			}else {
 				request.setAttribute("error","Identifiant/Password incorrect");
