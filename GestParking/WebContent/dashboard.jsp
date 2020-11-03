@@ -65,7 +65,7 @@
           <div class="bg-white py-2 collapse-inner rounded">
             
             <a class="collapse-item" href="category/newCategory">Ajouter Categorie</a>
-            <a class="collapse-item" href="cards.html">Liste Categorie</a>
+            <a class="collapse-item" href="category/categoryList">Liste Categorie</a>
           </div>
         </div>
       </li>
