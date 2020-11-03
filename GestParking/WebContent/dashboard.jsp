@@ -8,7 +8,7 @@
 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -64,7 +64,7 @@
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
             
-            <a class="collapse-item" href="add">Ajouter Categorie</a>
+            <a class="collapse-item" href="category/newCategory">Ajouter Categorie</a>
             <a class="collapse-item" href="cards.html">Liste Categorie</a>
           </div>
         </div>
