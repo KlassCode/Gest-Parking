@@ -39,13 +39,13 @@
 			data-parent="#accordionSidebar">
 			<div class="bg-white py-2 collapse-inner rounded">
 
-				<a class="collapse-item" href="newCategory">Ajouter Categorie</a> <a
-					class="collapse-item" href="categoryList">Liste Categorie</a>
+				<a class="collapse-item" href="../category/newCategory">Ajouter Categorie</a> <a
+					class="collapse-item" href="../category/categoryList">Liste Categorie</a>
 			</div>
 		</div></li>
 
 	<!-- Nav Item - Charts -->
-	<li class="nav-item"><a class="nav-link" href="charts.html"> <i
+	<li class="nav-item"><a class="nav-link" href="../vehicule/newVehicule"> <i
 			class="fas fa-fw fa-chart-area"></i> <span>Nouveau Vehicule</span></a></li>
 
 	<!-- Nav Item - Utilities Collapse Menu -->

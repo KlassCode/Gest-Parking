@@ -16,6 +16,10 @@ public class CategoryBean {
 		this.categoryName = categoryName;
 	}
 
+	public CategoryBean() {
+		// TODO Auto-generated constructor stub
+	}
+
 	public int getId() {
 		return id;
 	}

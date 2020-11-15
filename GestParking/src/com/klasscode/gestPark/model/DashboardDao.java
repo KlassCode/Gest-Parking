@@ -4,7 +4,10 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
+import com.klasscode.gestPark.bean.CategoryBean;
 import com.klasscode.gestPark.bean.SlotBean;
 import com.klasscode.gestPark.utils.JDBCUtils;
 
@@ -82,5 +85,23 @@ public class DashboardDao {
 		}
 
 		return nb;
+	}
+
+	public List<SlotBean> getAllSlots() {
+		// TODO Auto-generated method stub
+		List<SlotBean> slots = new ArrayList<>();
+
+		String sql = "SELECT * FROM slot WHERE dispo = 1";
+		try (PreparedStatement ps = conn.prepareStatement(sql); ResultSet rs = ps.executeQuery()) {
+
+			while (rs.next()) {
+				slots.add(new SlotBean(rs.getInt("id"), rs.getInt("no_slot"),rs.getBoolean("dispo")));
+			}
+
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		return slots;
 	}
 }

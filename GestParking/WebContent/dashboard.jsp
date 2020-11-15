@@ -80,7 +80,7 @@
 				</div></li>
 
 			<!-- Nav Item - Charts -->
-			<li class="nav-item"><a class="nav-link" href="charts.html">
+			<li class="nav-item"><a class="nav-link" href="vehicule/newVehicule">
 					<i class="fas fa-fw fa-chart-area"></i> <span>Nouveau
 						Vehicule</span>
 			</a></li>
@@ -321,7 +321,7 @@
 											<div
 												class="text-xs font-weight-bold text-success text-uppercase mb-1">Entree
 												les 7 derniers Jours</div>
-											<div class="h5 mb-0 font-weight-bold text-gray-800">15</div>
+											<div class="h5 mb-0 font-weight-bold text-gray-800">0</div>
 										</div>
 										<div class="col-auto">
 											<i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
@@ -341,7 +341,7 @@
 											<div
 												class="text-xs font-weight-bold text-warning text-uppercase mb-1">Vehicule
 												Entree</div>
-											<div class="h5 mb-0 font-weight-bold text-gray-800">98</div>
+											<div class="h5 mb-0 font-weight-bold text-gray-800">0</div>
 										</div>
 										<div class="col-auto">
 											<i class="fas fa-comments fa-2x text-gray-300"></i>

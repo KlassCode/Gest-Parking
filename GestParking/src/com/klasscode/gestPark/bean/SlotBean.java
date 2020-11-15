@@ -5,8 +5,22 @@ public class SlotBean {
 	private int noSlot;
 	private boolean dispo;
 
+	public SlotBean() {
+	}
+
+	public SlotBean(int id, int noSlot, boolean dispo) {
+		super();
+		this.id = id;
+		this.noSlot = noSlot;
+		this.dispo = dispo;
+	}
+
 	public int getId() {
 		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
 	}
 
 	public int getNoSlot() {
